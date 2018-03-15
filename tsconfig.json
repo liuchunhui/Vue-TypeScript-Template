@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "module": "es2015",
+    "moduleResolution": "node",
+    "target": "es6",
+    "allowSyntheticDefaultImports": true,
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    // 启用 vue-class-component 及 vuex-class 需要开启此选项
+    "experimentalDecorators": true,
+    // 启用 vuex-class 需要开启此选项
+    "strictFunctionTypes": false
+  },
+  "include": [
+    "./src/*"
+  ]
+}

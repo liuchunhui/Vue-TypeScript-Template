@@ -1,0 +1,17 @@
+{
+  "extends": "tslint:recommended",
+  "globals": {
+    "require": true
+  },
+
+  "rulesDirectory": ["src/"],
+  "rules": {
+    "no-consecutive-blank-lines": false,
+    "ordered-imports": false,
+    "object-literal-sort-keys": false,
+    "no-trailing-whitespace": false,
+    "no-unused-expression": [true, "allow-new"],
+    // "no-console": [true, "log", "error"]
+    "no-console": false
+  }
+}

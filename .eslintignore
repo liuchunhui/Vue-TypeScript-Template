@@ -1,0 +1,9 @@
+/build/
+/config/
+/dist/
+/*.js
+/test/unit/coverage/
+/src/libs/
+/src/components/Hello.vue
+/src/App.vue
+/src/main.ts
